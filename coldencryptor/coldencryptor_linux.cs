@@ -83,8 +83,7 @@ public static class ColdCryptor
 
         Crypto crypto = new Crypto();
         string extension = args[1];
-        string extension_key_name = "." + extension;
-
+    
         if (String.Compare(args[0], "run") == 0)
         {
             Console.WriteLine("run");
