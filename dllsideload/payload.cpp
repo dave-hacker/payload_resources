@@ -1,7 +1,7 @@
 #include "windows.h"
 #include <processthreadsapi.h>
 #include <memoryapi.h>
-#include <cstdint.h>
+#include <cstdint>
 
 #pragma comment(lib, "user32.lib")
 
