@@ -12,11 +12,23 @@ Certutil DLL sideload for NetApi32.dll
 
 https://hijacklibs.net/entries/microsoft/built-in/netapi32.html
 
+# Netsh
+
+Netsh DLL sideload for wshelper.dll
+
+https://hijacklibs.net/entries/microsoft/built-in/wshelper.html
+
+# PrintUi
+
+PrintUi DLL sideload for PrintUi.dll
+
+https://hijacklibs.net/entries/microsoft/built-in/printui.html
+
 ## Building
 
 Using MinGW-w64: 
 
-> x86_64-w64-mingw32-g++ < def > payload.cpp -o < dll > -shared -municode
+> x86_64-w64-mingw32-g++ {DEF_NAME}.def payload.cpp -o {DLL_NAME}.dll -shared -municode
 
 Note: Source files created based on https://www.redteam.cafe/red-team/dll-sideloading/dll-sideloading-not-by-dllmain
 
